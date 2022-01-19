@@ -1,11 +1,12 @@
-# Postman Plugin for ReadyAPI
+# Insomnia Plugin for ReadyAPI
 
-This repository contains source code files for the Postman Plugin for ReadyAPI. You can use this plugin to import your Postman collections.
+This repository contains source code files for the Insomnia Plugin for ReadyAPI. You can use this plugin to import your Insomnia collections.
 
 ## Plugin Info
 
-- Author: SmartBear Software (http://smartbear.com)
-- Plugin version: 2.0.1
+- Author: Ben Field
+- Plugin version: 0.0.1
+- Forked from SmartBear's Postman Collection API
 
 ## Requirements
 
@@ -20,18 +21,18 @@ The plugin requires ReadyAPI version 2.6 or later.
 To install the plugin:
 
 - In ReadyAPI, switch to the **Integrations** tab.
-- Find **ReadyAPI Postman Plugin** and click **Install**.
+- Find **ReadyAPI Insomnia Plugin** and click **Install**.
 - Confirm that you want to download and install the plugin.
 
 ### Import the collection
 
-![Import postman collection](import-postman-collection.png)
+![Import insomnia collection](import-insomnia-collection.png)
 
 To import the collection:
 
 - Select **File > Create Project via Integration**.
-- In the **Create Project via Integration** dialog, click **Postman collection**.
-- In the **Import Postman Collection** dialog, click **Browse** and select the Postman collection to import.
+- In the **Create Project via Integration** dialog, click **Insomnia collection**.
+- In the **Import Insomnia Collection** dialog, click **Browse** and select the Postman collection to import.
 
 ## Build the plugin
 
@@ -44,5 +45,3 @@ mvn clean install
 which will create the plugin jar in the target folder
 
 ## Additional Information
-
-You can find more information about importing the plugin and conversion from Postman collection to ReadyAPI project in the [documentation](https://support.smartbear.com/readyapi/docs/integrations/postman.html).
